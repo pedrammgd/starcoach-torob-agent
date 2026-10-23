@@ -2,11 +2,65 @@
   "actual_ui_recorded": true,
   "source_records_fabricated": false,
   "browser_errors": [],
-  "duration_seconds": 300,
+  "duration_seconds": 299.81,
+  "capture_seconds": 150,
+  "playback_speed": 0.5,
+  "edited_for_readability_not_performance_benchmark": true,
   "resolution": "1920x1080",
   "video": "H264",
-  "audio": "AAC silence; Persian captions, no narration",
+  "audio": "AAC synthetic Persian narration",
+  "voice": "fa-IR-FaridNeural",
+  "synthetic_voice_disclosed": true,
+  "post_submission_update_disclosed": true,
   "full_decode_passed": true,
-  "video_sha256": "da4c553ea52319437ca73f515abce4e22821fd67e6c3189087936e6baffb9db7",
-  "bytes": 5373610
+  "video_sha256": "ec59d1eb8b3fd32935c48467d713ff584aa95195455ea84bf07ee736097c3fdb",
+  "bytes": 12790708,
+  "narration_segments": [
+    {
+      "scene": 1,
+      "start": 0,
+      "duration": 30,
+      "speech_source_seconds": 27.14,
+      "tempo": 0.9692857142857143
+    },
+    {
+      "scene": 2,
+      "start": 30,
+      "duration": 50,
+      "speech_source_seconds": 42.5,
+      "tempo": 0.8854166666666666
+    },
+    {
+      "scene": 3,
+      "start": 80,
+      "duration": 55,
+      "speech_source_seconds": 45.02,
+      "tempo": 0.85
+    },
+    {
+      "scene": 4,
+      "start": 135,
+      "duration": 55,
+      "speech_source_seconds": 41.16,
+      "tempo": 0.85
+    },
+    {
+      "scene": 5,
+      "start": 190,
+      "duration": 60,
+      "speech_source_seconds": 46.63,
+      "tempo": 0.85
+    },
+    {
+      "scene": 6,
+      "start": 250,
+      "duration": 50,
+      "speech_source_seconds": 43.75,
+      "tempo": 0.9114583333333334
+    }
+  ],
+  "audio_mean_volume_dB": -20.1,
+  "audio_peak_volume_dB": -4.1,
+  "encoded_scene_frames_reviewed": 6,
+  "privacy_review": "isolated browser; official public records only; no account credentials or contacts field"
 }

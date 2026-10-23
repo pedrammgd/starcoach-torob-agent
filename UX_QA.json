@@ -13,13 +13,23 @@
     "actual coordinate map rendered",
     "mobile map no horizontal overflow",
     "shortlist survives reload from real-offer IDs",
+    "manual unavailable note is labeled personal and disables visit plan",
+    "manual follow-up persists on reload",
+    "replacement comparison omits only seller marked unavailable",
+    "replacement clears old seller note and retains exactly one product",
+    "invalid coordinates keep editing controls open",
+    "reset recovers invalid custom origin",
+    "saved shortlist survives improved follow-up flow",
     "no browser exceptions"
   ],
-  "passed": 14,
+  "passed": 21,
   "errors": [],
   "viewport": [
     390,
     844
   ],
-  "real_data": true
+  "real_data": true,
+  "observed_at": "2026-10-23T21:08:05.378146+00:00",
+  "browser": "isolated Chrome, mobile viewport emulation",
+  "physical_mobile_device_tested": false
 }

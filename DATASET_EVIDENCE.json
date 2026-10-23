@@ -18,5 +18,12 @@
   "historical_prices": true,
   "inventory_verified": false,
   "shop_names_mostly_synthetic_in_official_dataset": true,
-  "four_video_stages_verified": false
+  "four_video_stages_verified": false,
+  "enrichment": {
+    "same_official_products_csv": true,
+    "real_image_urls_and_first6_specs_added": true,
+    "public_images_cached": 12,
+    "image_provenance": "docs/images/provenance.json",
+    "product_and_offer_counts_unchanged": true
+  }
 }

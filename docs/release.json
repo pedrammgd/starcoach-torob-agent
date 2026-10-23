@@ -1,0 +1,16 @@
+{
+  "phase": "post-submission improvement",
+  "updated_at": "2026-10-23T21:00:24.559693+00:00",
+  "updated_at_tehran": "2026-10-24T00:30:24.559693+03:30",
+  "baseline_commit": "78eb4802c6316b175583e4e3a1d1d1ae33e91fbc",
+  "submitted_urls_unchanged": true,
+  "baseline_video_sha256": "da4c553ea52319437ca73f515abce4e22821fd67e6c3189087936e6baffb9db7",
+  "changes": [
+    "personal follow-up notes; not vendor verification",
+    "replace unavailable seller using actual other offers",
+    "exclude user-marked unavailable selection from totals and visit plan",
+    "warn for declared closure on selected weekday",
+    "recover from invalid custom origin",
+    "keyboard heading focus and stable initial layout"
+  ]
+}
