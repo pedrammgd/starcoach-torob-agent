@@ -27,7 +27,9 @@ with (S/'products.csv').open(encoding='utf-8-sig',newline='') as h:
  for r in csv.DictReader(h):
   n+=1
   if len(products)<1800 and len({o['shop_id'] for o in offers.get(r['product_id'],[])})>=2:
-   products.append({k:r[k] for k in ['product_id','persian_title','brand_name','category_name']}|{'offers':offers[r['product_id']]})
+   images=(json.loads(r.get('image_urls') or '[]') or []); specs=json.loads(r.get('specs') or '[]')
+   image=next((u for u in images if isinstance(u,str) and u.startswith('https://image.torob.com/')),None)
+   products.append({k:r[k] for k in ['product_id','persian_title','brand_name','category_name']}|{'offers':offers[r['product_id']],'image_url':image,'specs':[{'key':str(s.get('key','')),'value':str(s.get('value',''))} for s in (specs or [])[:6] if isinstance(s,dict)]})
 counts['products_source']=n
 used={o['shop_id'] for p in products for o in p['offers']};data={'products':products,'shops':{k:shops[k] for k in used},'source':'starcoach-dataset-v16-cap300-csv','historical_prices':True,'inventory_verified':False}
 (D/'data.json').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')))

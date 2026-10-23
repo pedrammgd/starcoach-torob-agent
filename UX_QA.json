@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "neighborhood preset changes origin",
+    "real products rendered",
+    "mobile search no horizontal overflow",
+    "one product one seller, replacement avoids duplicate totals",
+    "visit plan renders real selected shop",
+    "mobile plan no horizontal overflow",
+    "weekly hours human readable not raw JSON",
+    "Persian budget filters current comparison to honest empty state",
+    "reset restores real offers",
+    "distance ranking identifies nearest seller",
+    "actual coordinate map rendered",
+    "mobile map no horizontal overflow",
+    "shortlist survives reload from real-offer IDs",
+    "no browser exceptions"
+  ],
+  "passed": 14,
+  "errors": [],
+  "viewport": [
+    390,
+    844
+  ],
+  "real_data": true
+}
