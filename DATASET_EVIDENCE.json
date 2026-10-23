@@ -1,0 +1,22 @@
+{
+  "source_folder_basename": "starcoach-dataset-v16-cap300-csv",
+  "source_sha256": {
+    "shops": "1a292d6180e2a28cd0bbec57b1bb575a440e5afcc3ec3f5af5b1e13172aebaa1",
+    "offers": "664d256ed04b37cfb268d89eb605afda4a3b76179324b39d2dbaef21439f09b9",
+    "products": "e4a9749529d1e032c1dc2c4e275a8793a1edd702a194cb8de9abafc0649cc9c9"
+  },
+  "counts": {
+    "shops_with_valid_coordinates": 6476,
+    "offers_source": 331506,
+    "products_source": 225903
+  },
+  "public_products": 1800,
+  "public_offers": 6035,
+  "public_shops": 1304,
+  "selection": "first1800 source-order products with offers from at least2 distinct shops and valid shop coordinates",
+  "contacts_excluded": true,
+  "historical_prices": true,
+  "inventory_verified": false,
+  "shop_names_mostly_synthetic_in_official_dataset": true,
+  "four_video_stages_verified": false
+}

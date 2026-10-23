@@ -1,0 +1,12 @@
+{
+  "actual_ui_recorded": true,
+  "source_records_fabricated": false,
+  "browser_errors": [],
+  "duration_seconds": 300,
+  "resolution": "1920x1080",
+  "video": "H264",
+  "audio": "AAC silence; Persian captions, no narration",
+  "full_decode_passed": true,
+  "video_sha256": "da4c553ea52319437ca73f515abce4e22821fd67e6c3189087936e6baffb9db7",
+  "bytes": 5373610
+}
